@@ -1,0 +1,6 @@
+#!/bin/bash
+
+
+FILE=$1
+
+sed -i 's#<ENVIRONMENT>SHOWDOWTST</ENVIRONMENT>#<ENVIRONMENT>TST</ENVIRONMENT>#' type.conf
